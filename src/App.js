@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import data from './data';
+import data from './CustomerData';
 
 function App() {
   const [loadedData, setloadedData] = useState({});
